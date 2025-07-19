@@ -23,8 +23,8 @@ node server.js
 http://localhost:3000
 
 learning-website-/
-├── [index.html](http://_vscodecontentref_/0)       # Main HTML file
-├── [style.css](http://_vscodecontentref_/1)        # Stylesheet
-├── [script.js](http://_vscodecontentref_/2)        # JavaScript file
-├── [server.js](http://_vscodecontentref_/3)        # Node.js server
-├── [package.json](http://_vscodecontentref_/4)     # Project metadata and dependencies
+├── index.html        # Main HTML file
+├── style.css         # Stylesheet for UI
+├── script.js         # JavaScript logic
+├── server.js         # Node.js server
+└── package.json      # Project metadata and dependencies
