@@ -30,6 +30,8 @@ To run this project, ensure you have the following installed:
    ```bash
    http://localhost:3000
 
+## 📁 Project Structure
+
 learning-website-/
 ├── [index.html](http://_vscodecontentref_/0)       # Main HTML file
 ├── [style.css](http://_vscodecontentref_/1)        # Stylesheet
