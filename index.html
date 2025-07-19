@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Node.js Backend Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Node.js Backend Demo</h1>
+  <p>This website is powered by a Node.js Express server!</p>
+
+  <div class="form-container">
+    <input type="text" id="username" placeholder="Enter your name" />
+    <button onclick="greetUser()">Say Hello</button>
+  </div>
+
+  <p id="output"></p>
+  <p id="timestamp" class="timestamp"></p>
+
+  <div class="server-info">
+    <h3>Server Information</h3>
+    <div id="server-info">Loading server info...</div>
+    <button onclick="getServerInfo()" class="info-btn">Refresh Server Info</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
